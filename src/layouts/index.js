@@ -27,7 +27,7 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Gatsby
+          FODMAP Guide
         </Link>
       </h1>
     </div>
