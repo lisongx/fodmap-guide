@@ -37,10 +37,10 @@ const Header = () => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="FODMAP饮食指南"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'FODMAP的中文指南' },
+        { name: 'keywords', content: 'FODMAP, 低FODMAP饮食, IBS, 肠易激综合征' },
       ]}
     />
     <Header />
