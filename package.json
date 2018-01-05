@@ -3,6 +3,9 @@
   "description": "Gatsby default starter",
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "engines": {
+    "node" : ">=9.3.0"
+  },
   "dependencies": {
     "gatsby": "^1.9.145",
     "gatsby-link": "^1.6.32",
