@@ -12,7 +12,7 @@ export default IndexPage
 
 export const query = graphql`
   query IndexQuery {
-    indexPage: markdownRemark(id: {eq: "/Users/sean/Sites/fodmap-guide/src/pages/index.md absPath of file >>> MarkdownRemark"}) {
+    indexPage: markdownRemark(id: {regex: "/data/index.md/"}) {
       id
       frontmatter {
         title
