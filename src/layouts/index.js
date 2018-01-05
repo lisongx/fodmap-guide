@@ -27,9 +27,49 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          FODMAP Guide
+          FODMAP 指南
         </Link>
       </h1>
+    </div>
+  </div>
+)
+
+const Footer = () => (
+  <div
+    style={{
+      background: '#ddd',
+      marginTop: '1.45rem',
+    }}
+  >
+    <div
+      style={{
+        margin: '0 auto',
+        maxWidth: 960,
+        padding: '1.45rem 1.0875rem',
+      }}
+    >
+      <ul>
+        <li>
+          <a
+            href="https://www.monashfodmap.com/i-have-ibs/get-the-app/"
+            style={{
+              color: 'black',
+            }}
+          >
+            莫纳什大学开发FODMAP手机App
+          </a>
+        </li>
+        <li>
+          <a
+            href="mailto:iseansay@gmail.com"
+            style={{
+              color: 'black',
+            }}
+          >
+            联络作者
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
 )
@@ -54,6 +94,7 @@ const TemplateWrapper = ({ children }) => (
     >
       {children()}
     </div>
+    <Footer />
   </div>
 )
 
